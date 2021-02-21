@@ -1,0 +1,89 @@
+li {
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+
+}
+
+.form-select {
+    margin: 10px 0;
+}
+.filter {
+    text-align: center;
+
+}
+
+.fliter-form {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.filter-form__main {
+    background: #fff;
+}
+.filter-form__inner {
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    width: 30%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name: modalopen;
+    animation-duration: var(0.1s);
+}
+.filter-form__header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+}
+.filter-form__main {
+    overflow: auto;
+    height: 450px;
+}
+.form__li {
+    list-style: none;
+}
+.arr-right {
+    padding-bottom: 5px;
+    font-size: 25px;
+}
+
+.form-more__link {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+}
+.form-more__link:hover {
+    background-color: #a1b4ec;
+
+}
+.form-more__array {
+
+    display: none;
+}
+.form__array {
+    padding: 14px 10px;
+    list-style: none;
+    cursor: pointer;
+}
+.form__array:hover {
+    background-color: wheat;
+}
+.filter-form-close {
+    cursor: pointer;
+}
